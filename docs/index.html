@@ -28,25 +28,44 @@
         h2 {
             color: #303f9f;
             margin-top: 30px;
+            border-bottom: 2px solid #e8eaf6;
+            padding-bottom: 10px;
+        }
+        h3 {
+            color: #3949ab;
+            margin-top: 20px;
         }
         .visualization-list {
             list-style: none;
             padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
         }
         .visualization-list li {
-            margin: 10px 0;
-            padding: 10px;
+            margin: 5px 0;
+            padding: 15px;
             background-color: #e8eaf6;
             border-radius: 5px;
+            transition: transform 0.2s;
+        }
+        .visualization-list li:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         .visualization-list li a {
             color: #3949ab;
             text-decoration: none;
             font-weight: 500;
+            display: block;
         }
         .visualization-list li a:hover {
             color: #1a237e;
-            text-decoration: underline;
+        }
+        .section-description {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 0.9em;
         }
     </style>
 </head>
@@ -55,17 +74,73 @@
         <h1>삼성 라이온즈 선수 분석 프로젝트</h1>
         
         <h2>모델 분석 결과</h2>
+        <div class="section-description">
+            다양한 머신러닝 모델을 통한 선수 성과 분석 결과입니다.
+        </div>
+        
+        <h3>Gradient Boosting 분석</h3>
         <ul class="visualization-list">
-            <li><a href="gb_avg_importance.html">Gradient Boosting - 평균 중요도</a></li>
-            <li><a href="rf_avg_importance.html">Random Forest - 평균 중요도</a></li>
-            <li><a href="xgb_avg_importance.html">XGBoost - 평균 중요도</a></li>
+            <li><a href="gb_avg_importance.html">평균 중요도 분석</a></li>
+            <li><a href="gb_ops_importance.html">OPS 영향 요인 분석</a></li>
+            <li><a href="gb_war_importance.html">WAR 영향 요인 분석</a></li>
         </ul>
 
-        <h2>선수별 예측 리포트</h2>
+        <h3>Random Forest 분석</h3>
         <ul class="visualization-list">
-            <li><a href="player_738_2025_prediction.html">강민호 선수 2025 예측</a></li>
-            <li><a href="player_1754_2025_prediction.html">김지찬 선수 2025 예측</a></li>
-            <li><a href="player_517_2025_prediction.html">구자욱 선수 2025 예측</a></li>
+            <li><a href="rf_avg_importance.html">평균 중요도 분석</a></li>
+            <li><a href="rf_ops_importance.html">OPS 영향 요인 분석</a></li>
+            <li><a href="rf_war_importance.html">WAR 영향 요인 분석</a></li>
+        </ul>
+
+        <h3>XGBoost 분석</h3>
+        <ul class="visualization-list">
+            <li><a href="xgb_avg_importance.html">평균 중요도 분석</a></li>
+            <li><a href="xgb_ops_importance.html">OPS 영향 요인 분석</a></li>
+            <li><a href="xgb_war_importance.html">WAR 영향 요인 분석</a></li>
+        </ul>
+
+        <h2>선수별 성과 분석</h2>
+        <div class="section-description">
+            주요 선수들의 상세 성과 분석 및 시계열 데이터 시각화입니다.
+        </div>
+        <ul class="visualization-list">
+            <li><a href="player_738_performance.html">강민호 선수 성과 분석</a></li>
+            <li><a href="player_1754_performance.html">김지찬 선수 성과 분석</a></li>
+            <li><a href="player_517_performance.html">구자욱 선수 성과 분석</a></li>
+            <li><a href="player_871_performance.html">오승환 선수 성과 분석</a></li>
+            <li><a href="player_2121_performance.html">김태군 선수 성과 분석</a></li>
+            <li><a href="player_2143_performance.html">박해민 선수 성과 분석</a></li>
+        </ul>
+
+        <h2>시계열 분석</h2>
+        <div class="section-description">
+            경기 상황별, 시간별 성과 추이 분석입니다.
+        </div>
+        <ul class="visualization-list">
+            <li><a href="time_series/runner_situation.html">주자 상황별 성과 분석</a></li>
+            <li><a href="time_series/monthly_performance.html">월별 성과 추이</a></li>
+            <li><a href="time_series/home_away.html">홈/원정 성과 비교</a></li>
+        </ul>
+
+        <h2>클러스터링 분석</h2>
+        <div class="section-description">
+            선수들의 성과 패턴에 따른 그룹화 분석입니다.
+        </div>
+        <ul class="visualization-list">
+            <li><a href="clusters/cluster_2d.html">2D 클러스터 시각화</a></li>
+            <li><a href="clusters/cluster_3d.html">3D 클러스터 시각화</a></li>
+            <li><a href="clusters/cluster_analysis.html">클러스터 특성 분석</a></li>
+        </ul>
+
+        <h2>2025 시즌 예측</h2>
+        <div class="section-description">
+            머신러닝 모델을 통한 2025 시즌 성과 예측입니다.
+        </div>
+        <ul class="visualization-list">
+            <li><a href="player_reports_2025/player_738_prediction.html">강민호 선수 2025 예측</a></li>
+            <li><a href="player_reports_2025/player_1754_prediction.html">김지찬 선수 2025 예측</a></li>
+            <li><a href="player_reports_2025/player_517_prediction.html">구자욱 선수 2025 예측</a></li>
+            <li><a href="player_reports_2025/team_prediction.html">팀 전체 성과 예측</a></li>
         </ul>
     </div>
 </body>
