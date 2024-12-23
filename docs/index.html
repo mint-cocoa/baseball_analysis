@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 라이온즈 선수 분석 프로젝트</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a237e;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #303f9f;
+            margin-top: 30px;
+        }
+        .visualization-list {
+            list-style: none;
+            padding: 0;
+        }
+        .visualization-list li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #e8eaf6;
+            border-radius: 5px;
+        }
+        .visualization-list li a {
+            color: #3949ab;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .visualization-list li a:hover {
+            color: #1a237e;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>삼성 라이온즈 선수 분석 프로젝트</h1>
+        
+        <h2>모델 분석 결과</h2>
+        <ul class="visualization-list">
+            <li><a href="gb_avg_importance.html">Gradient Boosting - 평균 중요도</a></li>
+            <li><a href="rf_avg_importance.html">Random Forest - 평균 중요도</a></li>
+            <li><a href="xgb_avg_importance.html">XGBoost - 평균 중요도</a></li>
+        </ul>
+
+        <h2>선수별 예측 리포트</h2>
+        <ul class="visualization-list">
+            <li><a href="player_738_2025_prediction.html">강민호 선수 2025 예측</a></li>
+            <li><a href="player_1754_2025_prediction.html">김지찬 선수 2025 예측</a></li>
+            <li><a href="player_517_2025_prediction.html">구자욱 선수 2025 예측</a></li>
+        </ul>
+    </div>
+</body>
+</html> 
