@@ -31,11 +31,25 @@ ENV/
 *.swp
 *.swo
 
-# OS
-.DS_Store
-Thumbs.db
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
-# Project specific
-data/processed/
-*.csv
-*.xlsx 
+# Logs
+*.log
+
+# Output
+output/*
+!output/.gitkeep
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

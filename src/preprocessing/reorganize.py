@@ -83,7 +83,7 @@ COLUMN_TYPES = {
     "WAR": "war",
     "단타": "singles",
     "2루타": "doubles",
-    "3��타": "triples",
+    "3루타": "triples",
     "고4": "intentional_walks",
     "HBP": "hit_by_pitch",
     "희플": "sacrifice_flies",
@@ -206,8 +206,9 @@ def process_csv_file(src_path, dst_path, target_season):
     df.to_csv(dst_path, index=False)
 
 def reorganize_data():
-    base_dir = 'data'
-    new_base_dir = 'data_reorganized'
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.join(script_dir, "data")
+    new_base_dir = os.path.join(script_dir, "processed")
     
     # 새로운 기본 디렉토리 생성
     if os.path.exists(new_base_dir):
