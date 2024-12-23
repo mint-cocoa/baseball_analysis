@@ -1,0 +1,2 @@
+player_id,season,team,games,plate_appearances,at_bats,hits,home_runs,runs,rbis,walks,strikeouts,stolen_bases,singles,doubles,triples,intentional_walks,hit_by_pitch,sacrifice_flies,sacrifice_bunts,gidp,caught_stealing,babip,avg,obp,slg,ops,woba,war,bb_pct,k_pct,bb_k_ratio,iso,ab_hr_ratio,rc,rc27,wrc,spd,wsb,wraa
+478,2018,삼성,86.0,55,50.0,24.0,3.0,11.0,24.0,3.0,1.0,0.0,17.0,4.0,0.0,0.0,1.0,0.0,1.0,2.0,0.0,0.457,0.480,,,1.259,0.546,-,5.4,1.8,3.00,0.260,16.67,18.23,16.97,17.05,1.81,0.06,9.98

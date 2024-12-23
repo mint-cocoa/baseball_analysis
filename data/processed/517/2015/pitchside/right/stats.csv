@@ -1,0 +1,2 @@
+player_id,season,team,games,plate_appearances,at_bats,hits,home_runs,runs,rbis,walks,strikeouts,stolen_bases,singles,doubles,triples,intentional_walks,hit_by_pitch,sacrifice_flies,sacrifice_bunts,gidp,caught_stealing,babip,avg,obp,slg,ops,woba,war,bb_pct,k_pct,bb_k_ratio,iso,ab_hr_ratio,rc,rc27,wrc,spd,wsb,wraa
+517,2015,삼성,97.0,251,219.0,84.0,7.0,58.0,35.0,28.0,41.0,12.0,55.0,20.0,2.0,0.0,3.0,1.0,1.0,2.0,6.0,0.448,0.384,,,1.047,0.461,-,11.2,16.3,0.68,0.205,31.29,61.31,11.5,58.18,7.01,-0.53,25.93

@@ -1,0 +1,2 @@
+player_id,season,team,games,plate_appearances,at_bats,hits,home_runs,runs,rbis,walks,strikeouts,stolen_bases,singles,doubles,triples,intentional_walks,hit_by_pitch,sacrifice_flies,sacrifice_bunts,gidp,caught_stealing,babip,avg,obp,slg,ops,woba,war,bb_pct,k_pct,bb_k_ratio,iso,ab_hr_ratio,rc,rc27,wrc,spd,wsb,wraa
+517,2020,삼성,25.0,106,94.0,29.0,3.0,17.0,17.0,10.0,18.0,4.0,20.0,5.0,1.0,0.0,1.0,0.0,1.0,3.0,0.0,0.356,0.309,,,0.86,0.384,-,9.4,17.0,0.56,0.17,31.33,17.61,6.89,17.18,5.4,0.75,3.56

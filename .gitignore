@@ -31,25 +31,6 @@ ENV/
 *.swp
 *.swo
 
-# Data
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-
-# Logs
-*.log
-
-# Output
-output/*
-!output/.gitkeep
-
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb
 
 # macOS
 .DS_Store
-
-# Windows
-Thumbs.db

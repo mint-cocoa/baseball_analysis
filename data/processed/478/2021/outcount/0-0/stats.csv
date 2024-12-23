@@ -1,0 +1,2 @@
+player_id,season,team,games,plate_appearances,at_bats,hits,home_runs,runs,rbis,walks,strikeouts,stolen_bases,singles,doubles,triples,intentional_walks,hit_by_pitch,sacrifice_flies,sacrifice_bunts,gidp,caught_stealing,babip,avg,obp,slg,ops,woba,war,bb_pct,k_pct,bb_k_ratio,iso,ab_hr_ratio,rc,rc27,wrc,spd,wsb,wraa
+478,2021,삼성,79.0,105,91.0,21.0,1.0,6.0,2.0,11.0,14.0,1.0,18.0,1.0,1.0,0.0,0.0,0.0,3.0,1.0,1.0,0.263,0.231,,,0.611,0.289,-,10.5,13.3,0.79,0.066,91.00,9.13,3.29,7.92,4.22,-0.21,-5.57
